@@ -18,6 +18,7 @@ This document has ...
 ### Environment Setup
 
 - Upload the training_notbook.ipynb under notebook to https://colab.research.google.com/.
+
     [<img src="images/EnvSetup01.jpg" width="624" height="364">](https://colab.research.google.com/)
 
 - After uploading the file, you will find cells containing code. Click on the ▶ button in the upper left corner to execute the first cell and set up the environment. Please wait until it's completed (a ☑ will appear in the upper left corner).
