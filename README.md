@@ -1,5 +1,5 @@
 # DDSP-VST
-<img src="images/FrontView.jpg" width="400" height="300"> <img src="images/BackView.jpg" width="400" height="300">
+<img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 TBD
 
