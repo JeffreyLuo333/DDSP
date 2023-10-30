@@ -11,6 +11,10 @@ This document has following three sections:
 - <a href="#training-and-using-customized-model">Training and using customized model</a>.
 
 ## Play it like a Synth
+I utilized the DDSP-VST in a manner similar to a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against two other VST plugins from Studio, which i sample-based, and SWAM, which is based on phsyical model.
+
+### Violin:
+<img src="images/ViolinDDSP.jpg" width="300" height="200">      <img src="images/ViolinStudio.jpg" width="300" height="200">      <img src="images/ViolinSWAM.jpg" width="300" height="200">  
 
 ## Dial in your tone
 
