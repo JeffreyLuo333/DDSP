@@ -1,20 +1,20 @@
 # DDSP-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
-TBD
-
-## Project Objectives
-### What?
-TBD
-
-### Why / Inspirations:
-TBD
+To explore the capabilities of a novel AI-driven sound synthesizer, renowned for its unique prowess in transforming any sound into diverse instrumental tones while maintaining the intricacies of pitch and dynamics, I engaged in an experiment. I trained a Differentiable Digital Signal Processing VST neural synthesizer specifically for cello using a 10-minute soundtrack featuring the instrument. Subsequently, I played the piano, and the synthesizer seamlessly converted my piano tones into the deep, vibrant timbres of a cello, showcasing the technology's transformative potential.
 
 ## About this document
 
-This document has ...
+This document has following three sections:
+- <a href="play-it-like-a-synth">Play it like a Synth</a>,
+- <a href="#dial-in-your-tone">Dial in your tone</a>,
+- <a href="#training-and-using-customized-model">Training and using customized model</a>.
 
-## Training & Using Customized Model
+## Play it like a Synth
+
+## Dial in your tone
+
+## Training and using customized model
 ### Environment Setup
 
 - Upload the training_notbook.ipynb under notebook to https://colab.research.google.com/.
