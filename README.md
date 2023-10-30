@@ -6,7 +6,7 @@ To explore the capabilities of a novel AI-driven sound synthesizer, renowned for
 ## About this document
 
 This document has following three sections:
-- <a href="play-it-like-a-synth">Play it like a Synth</a>,
+- <a href="#play-it-like-a-synth">Play it like a Synth</a>,
 - <a href="#dial-in-your-tone">Dial in your tone</a>,
 - <a href="#training-and-using-customized-model">Training and using customized model</a>.
 
