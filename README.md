@@ -26,7 +26,18 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/c46910e1-30b9-484c-ab
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/d45f85f4-fb9d-4a58-91e2-3053262c99c3
 
+### Violin: 
+- __DDSP Cello VST__
 
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/d707f775-8f7c-4f97-ae65-5fbf365c825d
+
+- __Studio Cello VST__
+
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/9bca26ee-48bb-43af-842c-1e497573cbf5
+
+- __SWAM Cello VST__
+
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/ef965a42-f3a9-4b54-8016-a28023b9c83a
 
 ## Dial in your tone
 
