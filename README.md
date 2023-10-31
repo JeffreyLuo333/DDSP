@@ -29,8 +29,9 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/da4be448-40f4-454f-bf
 
 ## Play it like a Synth
 I utilized the DDSP-VST in a manner similar to a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against two other VST plugins from Studio, which i sample-based, and SWAM, which is based on phsyical model.
-__(<span style="color: red;">Unmute the speaker in the video clip to listen to the ~10 second recording.</span>)__
-
+```diff
+- Unmute the speaker in the video clip to listen to the ~10 second recording.
+```
 ### Cello:  
 - __DDSP Violin VST__
   
