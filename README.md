@@ -6,9 +6,24 @@ To explore the capabilities of a novel AI-driven sound synthesizer, renowned for
 ## About this document
 
 This document has following three sections:
+- <a href="#transform-the-familiar-into-the-unexpected">Transform the familiar into the unexpected</a>,
 - <a href="#play-it-like-a-synth">Play it like a Synth</a>,
-- <a href="#dial-in-your-tone">Dial in your tone</a>,
 - <a href="#training-and-using-customized-model">Training and using customized model</a>.
+
+## Transform the familiar into the unexpected
+I have been experimenting with the transformative capabilities of DDSP, using AI singer Merrow's singing recordings as input for the DDSP flute and trumpet modules. This has resulted in a wide spectrum of timbres that diverge significantly from the original voice.
+
+- __Merrow Solo:__
+  
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/cd875813-750a-409d-a1e8-5776a280acbc
+
+- __Transform Merrow to Flute:__
+
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/b2b01e89-8424-491a-82c2-c72fe38b1048
+
+- __Transform Merrow to Trumpet:__
+
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/da4be448-40f4-454f-bfe2-357b4360197a
 
 ## Play it like a Synth
 I utilized the DDSP-VST in a manner similar to a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against two other VST plugins from Studio, which i sample-based, and SWAM, which is based on phsyical model.
@@ -38,8 +53,6 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/9bca26ee-48bb-43af-84
 - __SWAM Cello VST__
 
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/ef965a42-f3a9-4b54-8016-a28023b9c83a
-
-## Dial in your tone
 
 ## Training and using customized model
 ### Environment Setup
