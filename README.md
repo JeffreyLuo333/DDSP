@@ -14,20 +14,15 @@ This document has following three sections:
 I utilized the DDSP-VST in a manner similar to a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against two other VST plugins from Studio, which i sample-based, and SWAM, which is based on phsyical model.
 
 ### Violin:  
-- DDSP VST
-<img src="images/ViolinDDSP.jpg" width="300" height="200">
-
-
+- __DDSP Violin VST__
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/f2eec8f9-be95-406f-bf7e-c12de8843e1d
 
-
-https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/93515b1a-a502-465c-833a-ccb2cabec6b1
-
 - Studio Violin VST
-<img src="images/ViolinStudio.jpg" width="300" height="200">
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/c46910e1-30b9-484c-aba3-90023acfe229
 
-- SWAM Violin VST
-<img src="images/ViolinSWAM.jpg" width="300" height="200">
+- __SWAM Violin VST__
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/d45f85f4-fb9d-4a58-91e2-3053262c99c3
+
 
 
 ## Dial in your tone
