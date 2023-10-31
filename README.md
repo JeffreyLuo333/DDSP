@@ -17,6 +17,10 @@ I utilized the DDSP-VST in a manner similar to a conventional VST for my investi
 - DDSP VST
 <img src="images/ViolinDDSP.jpg" width="300" height="200">
 
+
+https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/f2eec8f9-be95-406f-bf7e-c12de8843e1d
+
+
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/93515b1a-a502-465c-833a-ccb2cabec6b1
 
 - Studio Violin VST
