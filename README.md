@@ -15,12 +15,15 @@ I utilized the DDSP-VST in a manner similar to a conventional VST for my investi
 
 ### Violin:  
 - __DDSP Violin VST__
+  
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/f2eec8f9-be95-406f-bf7e-c12de8843e1d
 
 - Studio Violin VST
+  
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/c46910e1-30b9-484c-aba3-90023acfe229
 
 - __SWAM Violin VST__
+  
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/d45f85f4-fb9d-4a58-91e2-3053262c99c3
 
 
