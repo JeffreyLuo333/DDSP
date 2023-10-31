@@ -13,8 +13,8 @@ This document has following three sections:
 ## Transform the familiar into the unexpected
 I have been experimenting with the transformative capabilities of DDSP, using AI singer Merrow's singing recordings as input for the DDSP flute and trumpet modules. This has resulted in a wide spectrum of timbres that diverge significantly from the original voice.
 ```diff
-__(<span style="color: red;">Unmute the speaker in the video clip to listen to the ~5 second recording.</span>)__
-
+- Unmute the speaker in the video clip to listen to the ~5 second recording.
+```
 - __Merrow Solo:__
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/cd875813-750a-409d-a1e8-5776a280acbc
