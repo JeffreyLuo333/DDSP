@@ -1,7 +1,8 @@
 # DDSP-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
-To explore the capabilities of a novel AI-driven sound synthesizer, renowned for its unique prowess in transforming any sound into diverse instrumental tones while maintaining the intricacies of pitch and dynamics, I engaged in an experiment. I trained a Differentiable Digital Signal Processing VST neural synthesizer specifically for cello using a 10-minute soundtrack featuring the instrument. Subsequently, I played the piano, and the synthesizer seamlessly converted my piano tones into the deep, vibrant timbres of a cello, showcasing the technology's transformative potential.
+
+To experiment with a new class of sound synthesizer powered by AI, and its unique ability to morph any sound into a variety of instruments while preserving the nuances of pitch and dynamics, I trained an open-source AI-powered Differentiable Digital Signal Processing VST neural synthesizer for cello with 10 minutes of cello soundtrack. I then transformed the tones of my piano playing into the rich, resonant sounds of a cello.
 
 ## About this document
 
