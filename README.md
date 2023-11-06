@@ -1,4 +1,4 @@
-# DDSP-VST
+# Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 
