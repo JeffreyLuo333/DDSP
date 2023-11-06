@@ -33,11 +33,11 @@ My version of the Colab training notebook can be found at: "__`notebooks/Trainin
 
 - Then you need to restart the runtime to continue.
 
-    <img src="images/EnvSetup03.jpg" width="624" height="323">
+    <img src="images/EnvSetup03.jpg" width="500" height="250">
 
 - After restarting the runtime successfully, execute cell 2 as shown in the screenshot below __(<span style="color: red;">DO NOT run the first cell again!</span>)__, and verify if the output matches the result displayed below:
 
-     <img src="images/EnvSetup04.jpg" width="624" height="359">
+     <img src="images/EnvSetup04.jpg" width="500" height="300">
 
 ### 3.2 Data preparation
 Now you can proceed to the final cell for initiating training. Prior to beginning the training sequence, you need to upload your training audio files to Google Drive. Effective custom model training can be achieved with a minimum of 10 minutes of audio data, which can be in .wav or .mp3 formats. For optimal results, it is recommended to utilize 'monophonic' audio, which contains only a single note played at any given moment. To ensure consistency and the highest quality of training, it is also recommended to use audio from a single recording session, maintaining uniform microphone and reverb settings throughout.
@@ -64,7 +64,7 @@ The cell's output will prompt you to select your folder containing the training 
 
 During the training process, you will see output resembling the following. It's important to note that training may be a lengthy process, especially on the free version of Colab. In the event of a disconnection, just reconnect and repeat the previously outlined steps, making sure to choose the same training data folder. The training will resume from the point it was interrupted.
 
-<img src="images/StartTraining05.jpg" width="624" height="152">
+<img src="images/StartTraining05.jpg" width="500" height="125">
 
 ### Import the trained model to Garageband as a new VST plugin
 Upon completion of the training, the Colab notebook will automatically export and compress (zip) the model, followed by downloading it directly to your designated model folder. If the download doesn't start automatically, you can locate the model in your training folder with a name like __<span style="color: red;">ddsp-training-{date-time}/{Name}</span>__.
