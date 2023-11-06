@@ -25,7 +25,7 @@ My version of the Colab training notebook can be found at: "__`notebooks/Trainin
 
 - Upload the Colab notebook to https://colab.research.google.com/.
 
-    [<img src="images/EnvSetup01.jpg" width="624" height="364">](https://colab.research.google.com/)
+    [<img src="images/EnvSetup01.jpg" width="500" height="300">](https://colab.research.google.com/)
 
 - After launching the notebook, click on the ▶ button in the upper left corner to execute the first cell and set up the training environment. Please wait until it's completed (a ☑ will appear in the upper left corner).
 
