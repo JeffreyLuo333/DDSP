@@ -1,4 +1,4 @@
-![image](https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/93a0cf0f-a61f-402b-b083-98e68d36a8a4)# Differentiable Digital Signal Processing (DDSP)-VST
+# Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 ## 1. Project context
@@ -9,7 +9,6 @@ In a technology-powered futuristic orchestra, it is crucial for musical machines
 - __Innovation__: Neural synthesizers can continue to learn and improve over time with additional training data, which can lead to new and unique sounds.
 
 One such synthesizer is [DDSP](https://magenta.tensorflow.org/ddsp), a library of differentiable versions of common DSP functions (such as synthesizers, waveshapers, and filters). This allows these interpretable elements to be used as part of an deep learning model for audio generation. 
-<img src="images/ddsp_arch.png" width="500" height="200">
 
 ## 2. Project objective
 AI is a new domain to me. To learn and experiment with this new class of sound synthesizer powered by AI, I dived into the [open-source DDSP-VST tool](https://magenta.tensorflow.org/ddsp-vst) released by Google's DDSP research team. Out of its many functions, I started by exploring one of its unique abilities--morphing any sound into a variety of instruments while preserving the nuances of pitch and dynamics. 
@@ -21,6 +20,7 @@ The original [Google colab notebook](https://colab.research.google.com/github/ma
 With help from my brother who is doing research on AI at UC Berkeley, I was able to modify the colab source code to make it run. There will be warnings and errors during execution, but they won't affect the training.
 
 My updated notebook can be found at: notebooks/Training_notebook_VST_v2_with_comment. After it is loaded on to Google colab, you will see this:
+
 <img src="images/Training_notebook.png" width="600" height="300">
 
 Below is a step-by-step instruction on the training procedure.
