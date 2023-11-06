@@ -127,3 +127,9 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/ef965a42-f3a9-4b54-80
 
 ### 4.3 Transform from piano into cello
 To be updated
+
+## 5. Conclusions
+In contrast to sample-based synthesizers, neural synthesizers don't require vast amounts of storage for high-quality samples and offer more variability since they're not limited to the recorded samples. Compared to physics-based synthesizers, which often demand significant computational power and expertise to accurately model physical systems, neural synthesizers can generate complex sounds without explicitly programming the physical behaviors of instruments. 
+
+However, the richness and authenticity of a physics-based model or a high-quality sample library can sometimes outperform a neural synthesizer, especially in cases where the neural network hasn't been sufficiently trained on appropriate data.
+
