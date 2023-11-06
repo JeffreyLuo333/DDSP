@@ -73,7 +73,7 @@ To use your model, you should unzip the folder and place the entire contents in 
 
 <img src="images/NewModel01.png" width="400" height="500">
 
-## 4. Inference phase: morph a variety of input sound into a set of different instruments
+## 4. Inference phase: morph a range of input sounds into various instrumental outputs
 
 There are multiple use cases for the trained model.
 
