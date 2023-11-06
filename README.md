@@ -15,61 +15,61 @@ AI is a new domain to me. To learn and experiment with this new class of sound s
 
 ## 3. Training phase: train a neural synthesizer for cello
 
-The original [Google colab notebook](https://colab.research.google.com/github/magenta/ddsp/blob/main/ddsp/colab/demos/Train_VST.ipynb) for training a neural synthesizer from Google researchers no longer executes, because the source code is no longer compatible with the new Tensorflow environment and the Pyson language version.
+The original [Google Colab notebook](https://colab.research.google.com/github/magenta/ddsp/blob/main/ddsp/colab/demos/Train_VST.ipynb) for training the neural synthesizer, as provided by Google researchers, is now __non-functional__. This incompatibility issue arises because the source code has not been updated to align with the latest versions of the TensorFlow environment and the Python language.
 
-With help from my brother who is doing research on AI at UC Berkeley, I was able to modify the colab source code to make it run. There are still warnings and errors during execution, but they won't affect the training.
+With help from my brother, who is conducting AI research in graduate school, I was able to modify the Colab source code to restore its functionality. Although warnings and errors appear during execution, they __do not impede__ the training process.
 
-My updated notebook can be found at: "__`notebooks/Training_notebook_VST_v2_with_comment`__". Below is a step-by-step instruction on the training procedure.
+My version of the Colab training notebook can be found at: "__`notebooks/Training_notebook_VST_v2_with_comment`__". Below is a detailed guide outlining the steps involved in the training process.
 
 ### 3.1 Environment Setup
 
-- Upload the training_notbook.ipynb under notebook to https://colab.research.google.com/.
+- Upload the Colab notebook to https://colab.research.google.com/.
 
     [<img src="images/EnvSetup01.jpg" width="624" height="364">](https://colab.research.google.com/)
 
-- After uploading the file, you will find cells containing code. Click on the ▶ button in the upper left corner to execute the first cell and set up the environment. Please wait until it's completed (a ☑ will appear in the upper left corner).
+- After launching the notebook, click on the ▶ button in the upper left corner to execute the first cell and set up the training environment. Please wait until it's completed (a ☑ will appear in the upper left corner).
 
     <img src="images/EnvSetup02.jpg" width="624" height="88">
 
-- You need to restart the runtime to continue.
+- Then you need to restart the runtime to continue.
 
     <img src="images/EnvSetup03.jpg" width="624" height="323">
 
-- After restarting, execute cell 2 directly as shown in the screenshot below __(<span style="color: red;">DO NOT rerun the first cell</span>)__, and verify if the output matches the result displayed below:
+- After restarting the runtime successfully, execute cell 2 as shown in the screenshot below __(<span style="color: red;">DO NOT run the first cell again!</span>)__, and verify if the output matches the result displayed below:
 
      <img src="images/EnvSetup04.jpg" width="624" height="359">
 
-### 3.2 Prepare Data
-If everything is functioning as expected, we can proceed to the final cell for training. However, before starting the training process, it's essential to upload your training audio files to Google Drive. Custom models can be trained effectively with as little as 10 minutes of audio data in either .wav or .mp3 format. For the best results, consider using "monophonic" audio, meaning there's only one note being played at a time. It's ideal to use audio from a single recording session with the same microphone and reverb settings for optimal training outcomes.
+### 3.2 Data preparation
+Now you can proceed to the final cell for initiating training. Prior to beginning the training sequence, you need to upload your training audio files to Google Drive. Effective custom model training can be achieved with a minimum of 10 minutes of audio data, which can be in .wav or .mp3 formats. For optimal results, it is recommended to utilize 'monophonic' audio, which contains only a single note played at any given moment. To ensure consistency and the highest quality of training, it is also recommended to use audio from a single recording session, maintaining uniform microphone and reverb settings throughout.
 
-You need create a folder on your drive with your audio files in it, for example, I create a folder DDSP_training/CelloSuiteBach and put all mp3 files inside the folder:
+You should create a folder on your Google Drive to store your audio files. For instance, I created a folder named 'DDSP_training/CelloSuiteBach' and placed all the mp3 files within this folder.
 
 <img src="images/PrepareData01.png" width="500" height="350">
 
 ### 3.2 Start Training
 
-Before we start training, we need set a name for our model in the 3rd cell:
+One additional step before we initiate training is to assign a name to our model. This is done in the third cell of the notebook:
 
 <img src="images/StartTraining01.jpg" width="624" height="208">
 
-Then press the ▶ button in the upper left of 3rd cell to start training, you will see some output of this cell and a popup ask for google drive permission, choose __<span style="color: red;">Connect to google Drive</span>__ to continue.
+Then press the ▶ button located at the top left corner of the third cell to commence training. You will observe some output from this cell, followed by a popup requesting permission to access Google Drive. Choose __<span style="color: red;">Connect to Google Drive</span>__ to continue.
 
 <img src="images/StartTraining02.png" width="500" height="200">
 
-The output of the cell will let you pick your folder that contains your training data. Select the folder and training will automatically start.
+The cell's output will prompt you to select your folder containing the training data. Once you choose the appropriate folder, the training will begin right away.
 
 <img src="images/StartTraining03.jpg" width="624" height="309">
 
 <img src="images/StartTraining04.jpg" width="624" height="309">
 
-You will observe output similar to the following during the training process. Please be aware that training can be time-consuming when using the free Colab service. If you happen to experience a disconnection, simply reconnect and follow the steps mentioned earlier, ensuring that you select the same folder. The training will continue from where it was paused or left off.
+During the training process, you will see output resembling the following. It's important to note that training may be a lengthy process, especially on the free version of Colab. In the event of a disconnection, just reconnect and repeat the previously outlined steps, making sure to choose the same training data folder. The training will resume from the point it was interrupted.
 
 <img src="images/StartTraining05.jpg" width="624" height="152">
 
 ### Import the trained model to Garageband as a new VST plugin
-After the training is completed, the Colab should automatically export, compress (zip), and download your model folder. If the download doesn't start automatically, you can locate the model in your training folder with a name like __<span style="color: red;">ddsp-training-{date-time}/{Name}</span>__.
+Upon completion of the training, the Colab notebook will automatically export and compress (zip) the model, followed by downloading it directly to your designated model folder. If the download doesn't start automatically, you can locate the model in your training folder with a name like __<span style="color: red;">ddsp-training-{date-time}/{Name}</span>__.
 
-To use your model, you should unzip the folder and place the entire contents in the plugin model folder. On macOS, the plugin model folder path is typically __<span style="color: red;">Documents/Magenta/DDSP/Models</span>__. You can also access this folder within the plugin's panel.
+To use your model, you should unzip the folder and place the entire contents in the plugin model folder. On macOS, the plugin model folder path is typically __<span style="color: red;">Documents/Magenta/DDSP/Models</span>__. You can also access this folder from the plugin's panel.
 
 <img src="images/NewModel01.png" width="400" height="500">
 
