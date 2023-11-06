@@ -66,8 +66,6 @@ During the training process, you will see output resembling the following. It's 
 
 <img src="images/StartTraining05.jpg" width="624" height="152">
 
-I trained an DDSP-VST neural synthesizer for cello with 10 minutes of cello soundtrack.
-
 ### Import the trained model to Garageband as a new VST plugin
 Upon completion of the training, the Colab notebook will automatically export and compress (zip) the model, followed by downloading it directly to your designated model folder. If the download doesn't start automatically, you can locate the model in your training folder with a name like __<span style="color: red;">ddsp-training-{date-time}/{Name}</span>__.
 
@@ -97,16 +95,16 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/b2b01e89-8424-491a-82
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/da4be448-40f4-454f-bfe2-357b4360197a
 
 ### 4.2 Play it like a Synth
-Then I utilized the DDSP-VST just like a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against the two other VST plugins, one of which is sample-based, and SWAM, the other of which is Phsyics-based.
+Then, I employed the DDSP-VST in the same manner as a traditional VST for my research. In this inquiry, I utilized two instruments—a violin and a cello—both of which I trained personally to aid in comparative analysis. The performance of the DDSP-VST was then assessed alongside two other VST plugins: Studio, which is sample-based and the other, SWAM, which is physics-based.
 ```diff
 - Unmute the speaker in the video clip to listen to the ~10 second recording.
 ```
-### Cello:  
+#### Violin:  
 - __DDSP Violin VST__
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/f2eec8f9-be95-406f-bf7e-c12de8843e1d
 
-- Studio Violin VST
+- __Studio Violin VST__
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/c46910e1-30b9-484c-aba3-90023acfe229
 
@@ -114,7 +112,7 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/c46910e1-30b9-484c-ab
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/d45f85f4-fb9d-4a58-91e2-3053262c99c3
 
-### Violin: 
+#### Cello: 
 - __DDSP Cello VST__
 
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/d707f775-8f7c-4f97-ae65-5fbf365c825d
@@ -127,5 +125,5 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/9bca26ee-48bb-43af-84
 
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/ef965a42-f3a9-4b54-8016-a28023b9c83a
 
-## Training and using customized model
-
+### 4.3 Transform from piano into cello
+To be updated
