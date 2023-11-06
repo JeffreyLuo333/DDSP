@@ -1,8 +1,22 @@
 # Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
+## 1. Project context
+In a technology-powered futuristic orchestra, it is crucial for musical machines to convey the __nuances and emotions__ inherent in human performances, instead of yielding uniform sounds that lack a personal touch. The foundation for such a capability is the ability for a synthesizer to capture and reproduce the subtleties and nuances of real instrumental sounds.
 
-To experiment with a new class of sound synthesizer powered by AI, and its unique ability to morph any sound into a variety of instruments while preserving the nuances of pitch and dynamics, I trained an open-source AI-powered Differentiable Digital Signal Processing VST neural synthesizer for cello with 10 minutes of cello soundtrack. I then transformed the tones of my piano playing into the rich, resonant sounds of a cello.
+Learning from a diverse set of human performance data that includes these nuances, neural synthesizers can potentially capture and retain the subtle nuances of pitch and dynamics in sound generation. Furthermore, there are more benefits:
+- __Flexibility__: They can generate a wide range of sounds and timbres that might not be available in sample libraries or that are difficult to model using physical equations.
+- __Adaptability__: Neural networks can be trained to adapt to different styles and dynamics of playing, potentially offering more personalized expression based on the training data.
+- __Interactivity__: These synthesizers can be designed to respond to various inputs in real-time, allowing for interactive performances that can mimic the responsiveness of a human musician.
+- __Innovation__: Neural synthesizers can continue to learn and improve over time with additional training data, which can lead to new and unique sounds.
+
+One such synthesizer is [DDSP](https://magenta.tensorflow.org/ddsp), a library of differentiable versions of common DSP functions (such as synthesizers, waveshapers, and filters). This allows these interpretable elements to be used as part of an deep learning model for audio generation. 
+<img src="images/ddsp_arch.png" width="400" height="200">
+
+Google's DDSP research team
+
+## 2. Project objective
+AI is a new domain to me. To experiment with this new class of sound synthesizer powered by AI, and its unique ability to morph any sound into a variety of instruments while preserving the nuances of pitch and dynamics, I trained an DDSP-VST neural synthesizer for cello with 10 minutes of cello soundtrack. I then transformed the tones of my piano playing into the rich, resonant sounds of a cello.
 
 ## About this document
 
