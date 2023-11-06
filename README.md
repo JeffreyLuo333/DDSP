@@ -1,4 +1,4 @@
-# Differentiable Digital Signal Processing (DDSP)-VST
+![image](https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/f79d5f58-f05a-4b2d-8608-9a8afb181166)# Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 ## 1. Project context
@@ -131,5 +131,24 @@ To be updated
 ## 5. Conclusions
 In contrast to sample-based synthesizers, neural synthesizers don't require vast amounts of storage for high-quality samples and offer more variability since they're not limited to the recorded samples. Compared to physics-based synthesizers, which often demand significant computational power and expertise to accurately model physical systems, neural synthesizers can generate complex sounds without explicitly programming the physical behaviors of instruments. 
 
-However, if the neural network hasn't been sufficiently trained on appropriate data, a neural synthesizer will be outperformed by the richness and authenticity of a physics-based model or a high-quality sample library. During my experimentation, I trained the model with very limited amount of data, which adversely affected the quality of the generated sounds.
+However, if the neural network hasn't been sufficiently trained on appropriate data, a neural synthesizer will be outperformed by the richness and authenticity of a physics-based model or a high-quality sample library. During my experimentation, I trained the model with very limited amount of data, which adversely affected the quality of the generated sounds. My plan is to find further the experimentation.
 
+## 6. The relationship between DDSP and NSynth
+In case you are curious about how they correlate to each other, here's a synthesis of what I've gathered from the literature.
+
+DDSP and NSynth are both research projects developed by Google that leverage deep learning for audio and music generation. While they share some similarities in their use of neural networks for synthesizing sounds, they have different approaches and focus areas.
+
+### NSynth
+- Focus: NSynth is focused on generating novel sounds by combining the acoustic qualities of different instruments. It uses a deep neural network to learn the characteristics of sounds from various instruments and then interpolate between them to create new, hybrid sounds.
+- Architecture: It employs an autoencoder architecture, where an encoder network transforms audio into a latent space, and a decoder network reconstructs audio from this latent space.
+- Interpolation: One of the key features of NSynth is its ability to smoothly interpolate between different instrument sounds, creating a continuum of sounds that blend the characteristics of the original instruments.
+
+### DDSP
+- Focus: DDSP, on the other hand, focuses on generating high-quality musical sounds with precise control over their timbral characteristics. It incorporates traditional signal processing elements within a differentiable framework, allowing for the use of gradient descent and backpropagation for optimizing sound synthesis parameters.
+- Integration with DSP: DDSP integrates deep learning with traditional digital signal processing (DSP) techniques. It uses neural networks to predict the parameters of DSP-based synthesizers and effects, enabling the generation of realistic and expressive musical sounds.
+- Expressiveness: A major strength of DDSP is its ability to generate expressive instrumental sounds, capturing the nuances of different playing techniques.
+
+### Summary
+While NSynth focuses on sound interpolation and the generation of novel timbres, DDSP emphasizes realistic and expressive sound generation, integrating deep learning with traditional DSP techniques.
+
+Even though NSynth and DDSP are distinct projects with different focuses and approaches, they are both part of the broader landscape of neural audio synthesis, contributing to the development of innovative tools for sound generation and manipulation using deep learning.
