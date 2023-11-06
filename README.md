@@ -2,8 +2,8 @@
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 ## 1. Project context
-In a technology-powered futuristic orchestra, it is crucial for musical machines to convey the __`nuances and emotions`__ inherent in human performances, instead of yielding uniform sounds that lack a personal touch. The foundation for such a capability lies in a synthesizer's ability to capture and reproduce the subtleties and nuances of real instrumental sounds. Learning from a diverse set of human performance data that includes these nuances, __`neural synthesizers`__ can potentially capture and retain the subtle nuances of pitch and dynamics in sound generation. Furthermore, there are more potential benefits:
-- __Flexibility__: They can generate a wide range of sounds and timbres that might not be available in sample libraries (__`sample-based synthesizer`__) or that are difficult to model using physical equations (__`Physics-based synthesizer`__).
+In a technology-powered futuristic orchestra, it is crucial for musical machines to convey the __`nuances and emotions`__ inherent in human performances, instead of yielding uniform sounds that lack a personal touch. The foundation for such a capability lies in a synthesizer's ability to capture and reproduce the subtleties and nuances of real instrumental sounds. Learning from a diverse set of performance data that includes these nuances, __`neural synthesizers`__ can potentially capture and retain the subtle nuances of pitch and dynamics in sound generation. Furthermore, there are more potential benefits:
+- __Flexibility__: They can generate a wide range of sounds and timbres that might not be available in sample libraries (__`sample-based synthesizer`__) or that are difficult to model using physical equations (__`physics-based synthesizer`__).
 - __Adaptability__: Neural networks can be trained to adapt to different styles and dynamics of playing, potentially offering more personalized expression based on the training data.
 - __Interactivity__: These synthesizers can be designed to respond to various inputs in real-time, allowing for interactive performances that can mimic the responsiveness of a human musician.
 - __Innovation__: Neural synthesizers can continue to learn and improve over time with additional training data, which can lead to new and unique sounds.
@@ -66,6 +66,8 @@ During the training process, you will see output resembling the following. It's 
 
 <img src="images/StartTraining05.jpg" width="624" height="152">
 
+I trained an DDSP-VST neural synthesizer for cello with 10 minutes of cello soundtrack.
+
 ### Import the trained model to Garageband as a new VST plugin
 Upon completion of the training, the Colab notebook will automatically export and compress (zip) the model, followed by downloading it directly to your designated model folder. If the download doesn't start automatically, you can locate the model in your training folder with a name like __<span style="color: red;">ddsp-training-{date-time}/{Name}</span>__.
 
@@ -77,8 +79,8 @@ To use your model, you should unzip the folder and place the entire contents in 
 
 There are multiple use cases for the trained model.
 
-## Transform the familiar into the unexpected
-I have been experimenting with the transformative capabilities of DDSP, using AI singer Merrow's singing recordings as input for the DDSP flute and trumpet modules. This has resulted in a wide spectrum of timbres that diverge significantly from the original voice.
+### 4.1 Transform the familiar into the unexpected
+First, I experimented with the transformative capabilities of DDSP, using the AI singer Merrow's singing recordings as input for the DDSP flute and trumpet synthesizers. This experiment yielded a broad array of timbres that markedly deviated from the original vocal quality.
 ```diff
 - Unmute the speaker in the video clip to listen to the ~5 second recording.
 ```
@@ -94,8 +96,8 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/b2b01e89-8424-491a-82
 
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/da4be448-40f4-454f-bfe2-357b4360197a
 
-## Play it like a Synth
-I utilized the DDSP-VST in a manner similar to a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against two other VST plugins from Studio, which i sample-based, and SWAM, which is based on phsyical model.
+### 4.2 Play it like a Synth
+Then I utilized the DDSP-VST just like a conventional VST for my investigative purposes. In this exploration, I employed two instruments, namely a violin and a cello, which I personally trained, to facilitate the comparison. The outcomes derived from the DDSP-VST were evaluated against the two other VST plugins, one of which is sample-based, and SWAM, the other of which is Phsyics-based.
 ```diff
 - Unmute the speaker in the video clip to listen to the ~10 second recording.
 ```
