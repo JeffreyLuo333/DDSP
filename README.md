@@ -9,7 +9,7 @@ In a technology-powered futuristic orchestra, it is crucial for musical machines
 - __Innovation__: Neural synthesizers can continue to learn and improve over time with additional training data, which can lead to new and unique sounds.
 
 One such synthesizer is [DDSP](https://magenta.tensorflow.org/ddsp), a library of differentiable versions of common DSP functions (such as synthesizers, waveshapers, and filters). This allows these interpretable elements to be used as part of an deep learning model for audio generation. 
-<img src="images/ddsp_arch.png" width="400" height="200">
+<img src="images/ddsp_arch.png" width="500" height="200">
 
 ## 2. Project objective
 AI is a new domain to me. To learn and experiment with this new class of sound synthesizer powered by AI, I dived into the [open-source DDSP-VST tool](https://magenta.tensorflow.org/ddsp-vst) released by Google's DDSP research team. Out of its many functions, I started by exploring one of its unique abilities--morphing any sound into a variety of instruments while preserving the nuances of pitch and dynamics. 
