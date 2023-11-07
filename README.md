@@ -17,7 +17,7 @@ AI is a new domain to me. To explore and understand the innovative AI-powered so
 
 The original [Google Colab notebook](https://colab.research.google.com/github/magenta/ddsp/blob/main/ddsp/colab/demos/Train_VST.ipynb) for training the neural synthesizer, as provided by Google researchers, is now __non-functional__. This incompatibility issue arises because the source code has not been updated to align with the latest versions of the TensorFlow environment and the Python language.
 
-With help from my brother, who is conducting AI research in graduate school, I was able to modify the Colab source code to restore its functionality. Although warnings and errors appear during execution, they __do not impede__ the training process.
+With help from my brother, who is conducting AI research in graduate school, I was able to modify the Colab source code to restore its functionality. Although warnings and errors still appear during execution, they __do not impede__ the training process.
 
 My version of the Colab training notebook can be found at: "__`notebooks/Training_notebook_VST_v2_with_comment`__". Below is a detailed guide outlining the steps involved in the training process.
 
