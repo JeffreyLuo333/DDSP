@@ -3,8 +3,8 @@
 
 ## 1. Project context
 In a technology-powered futuristic orchestra, it is crucial for musical machines to convey the __`nuances and emotions`__ inherent in human performances, instead of yielding uniform sounds that lack a personal touch. The foundation for such a capability lies in a synthesizer's ability to capture and reproduce the subtleties and nuances of real instrumental sounds. Learning from a diverse set of performance data that includes these nuances, __`neural synthesizers`__ can potentially capture and retain the subtle nuances of pitch and dynamics in sound generation. Furthermore, there are more potential benefits:
-- __Flexibility__: They can generate a wide range of sounds and timbres that might not be available in sample libraries (__`sample-based synthesizer`__) or that are difficult to model using physical equations (__`physics-based synthesizer`__).
 - __Adaptability__: Neural networks can be trained to adapt to different styles and dynamics of playing, potentially offering more personalized expression based on the training data.
+- __Flexibility__: They can generate a wide range of sounds and timbres that might not be available in sample libraries (__`sample-based synthesizer`__) or that are difficult to model using physical equations (__`physics-based synthesizer`__).
 - __Interactivity__: These synthesizers can be designed to respond to various inputs in real-time, allowing for interactive performances that can mimic the responsiveness of a human musician.
 - __Innovation__: Neural synthesizers can continue to learn and improve over time with additional training data, which can lead to new and unique sounds.
 
