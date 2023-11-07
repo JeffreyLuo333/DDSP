@@ -95,7 +95,7 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/b2b01e89-8424-491a-82
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/da4be448-40f4-454f-bfe2-357b4360197a
 
 ### 4.2 Play it like a Synth
-Then, I employed the DDSP-VST in the same manner as a traditional VST for my research. In this inquiry, I utilized two instruments—a violin and a cello—both of which I trained personally to aid in comparative analysis. The performance of the DDSP-VST was then assessed alongside two other VST plugins: Studio, which is sample-based and the other, SWAM, which is physics-based.
+Then, I employed the DDSP-VST in the same manner as a traditional VST for my research. In this investigation, I utilized two instruments—a violin and a cello—both of which I trained personally to aid in comparative analysis. The performance of the DDSP-VST was then assessed alongside two other VST plugins: Studio, which is sample-based and the other, SWAM, which is physics-based.
 ```diff
 - Unmute the speaker in the video clip to listen to the ~10-second recording.
 ```
@@ -133,9 +133,11 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/ef965a42-f3a9-4b54-80
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/64154ed7-a755-49de-a558-7ce6779f60d6
 
-- __Transformed from Piano to Cello:__
+- __Cello Soundtrack Transformed from Piano:__
 
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/67c921d8-03fd-4cc9-a956-17a7634546f3
+
+Due to the scarcity of cello datasets for training the DDSP model, the sound quality of the synthesized cello requires quite some enhancement. Nevertheless, it is evident that the conversion retains the subtle characteristics of the cello, even with the current limitations in sound quality.
 
 ## 5. Conclusions
 In contrast to sample-based synthesizers, neural synthesizers don't require vast amounts of storage for high-quality samples and offer more variability since they're not limited to the recorded samples. Compared to physics-based synthesizers, which often demand significant computational power and expertise to accurately model physical systems, neural synthesizers can generate complex sounds without explicitly programming the physical behaviors of instruments. 
