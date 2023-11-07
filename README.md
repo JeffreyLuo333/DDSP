@@ -80,7 +80,7 @@ There are multiple use cases for the trained model.
 ### 4.1 Transform the familiar into the unexpected
 First, I experimented with the transformative capabilities of DDSP, using the AI singer Merrow's singing recordings as input for the DDSP flute and trumpet synthesizers. This experiment yielded a broad array of timbres that markedly deviated from the original vocal quality.
 ```diff
-- Unmute the speaker in the video clip to listen to the ~5 second recording.
+- Unmute the speaker in the video clip to listen to the ~5-second recording.
 ```
 - __Merrow Solo:__
   
@@ -97,7 +97,7 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/da4be448-40f4-454f-bf
 ### 4.2 Play it like a Synth
 Then, I employed the DDSP-VST in the same manner as a traditional VST for my research. In this inquiry, I utilized two instruments—a violin and a cello—both of which I trained personally to aid in comparative analysis. The performance of the DDSP-VST was then assessed alongside two other VST plugins: Studio, which is sample-based and the other, SWAM, which is physics-based.
 ```diff
-- Unmute the speaker in the video clip to listen to the ~10 second recording.
+- Unmute the speaker in the video clip to listen to the ~10-second recording.
 ```
 #### Violin:  
 - __DDSP Violin VST__
@@ -126,6 +126,9 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/9bca26ee-48bb-43af-84
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/ef965a42-f3a9-4b54-8016-a28023b9c83a
 
 ### 4.3 Transform from piano into cello
+```diff
+- Unmute the speaker in the video clip to listen to the ~35-second recording.
+```
 - __Piano Soundtrack:__
   
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/64154ed7-a755-49de-a558-7ce6779f60d6
