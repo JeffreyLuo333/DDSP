@@ -1,4 +1,4 @@
-![image](https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/f79d5f58-f05a-4b2d-8608-9a8afb181166)# Differentiable Digital Signal Processing (DDSP)-VST
+# Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 ## 1. Project context
