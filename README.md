@@ -137,7 +137,7 @@ https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/64154ed7-a755-49de-a5
 
 https://github.com/JeffreyLuo333/DDSP-VST/assets/114297879/67c921d8-03fd-4cc9-a956-17a7634546f3
 
-Due to the scarcity of cello datasets for training the DDSP model, the sound quality of the synthesized cello requires quite some enhancement. Nevertheless, it is evident that the conversion retains the subtle characteristics of the cello, even with the current limitations in sound quality.
+Due to the scarcity of cello datasets for training the DDSP model, the sound quality of the synthesized cello requires quite some enhancement. Nevertheless, it is evident that the conversion retains the subtle characteristics of a real instrument, even with the current limitations in sound quality.
 
 ## 5. Conclusions
 In contrast to sample-based synthesizers, neural synthesizers don't require vast amounts of storage for high-quality samples and offer more variability since they're not limited to the recorded samples. Compared to physics-based synthesizers, which often demand significant computational power and expertise to accurately model physical systems, neural synthesizers can generate complex sounds without explicitly programming the physical behaviors of instruments. 
