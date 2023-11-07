@@ -144,7 +144,7 @@ In contrast to sample-based synthesizers, neural synthesizers don't require vast
 
 However, if the neural network hasn't been sufficiently trained on appropriate data, a neural synthesizer will be outperformed by the richness and authenticity of a physics-based model or a high-quality sample library. During my experimentation, I trained the model with very limited amount of data, which adversely affected the quality of the generated sounds. My plan is to find further the experimentation.
 
-## 6. The relationship between DDSP and NSynth
+## 6. The Relationship Between DDSP and NSynth
 In case you are curious about how they correlate to each other, here's a synthesis of what I've gathered from the literature.
 
 DDSP and NSynth are both research projects developed by Google that leverage deep learning for audio and music generation. While they share some similarities in their use of neural networks for synthesizing sounds, they have different approaches and focus areas.
