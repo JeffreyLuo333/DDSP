@@ -1,7 +1,7 @@
 # Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
-## 1. Project context
+## 1. Project context (why)
 In a technology-powered futuristic orchestra, it is crucial for musical machines to convey the __`nuances and emotions`__ inherent in human performances, instead of yielding uniform sounds that lack a personal touch. The foundation for such a capability lies in a synthesizer's ability to capture and reproduce the subtleties and nuances of real instrumental sounds. Learning from a diverse set of performance data that includes these nuances, __`neural synthesizers`__ can potentially capture and retain the subtle nuances of pitch and dynamics in sound generation. Furthermore, there are more potential benefits:
 - __Adaptability__: Neural networks can be trained to adapt to different styles and dynamics of playing, potentially offering more __`personalized expression`__ based on the training data.
 - __Interactivity__: These synthesizers can be designed to respond to various inputs in real-time, allowing for interactive performances that can __`mimic the responsiveness`__ of a human musician.
@@ -10,10 +10,10 @@ In a technology-powered futuristic orchestra, it is crucial for musical machines
 
 One such neural synthesizer is [DDSP](https://magenta.tensorflow.org/ddsp), a library of differentiable versions of common DSP functions (such as synthesizers, waveshapers, and filters). This allows these interpretable elements to be used as part of an deep learning model for audio generation. 
 
-## 2. Project objective
+## 2. Project objective (what)
 To explore and understand the innovative AI-powered sound synthesizer, I dived into the [open-source DDSP-VST tool](https://magenta.tensorflow.org/ddsp-vst) developed by Google's DDSP research team. Among its multitude of features, I began by delving into one of its distinctive capabilities: morphing input sound into a variety of instruments while preserving the nuances of pitch and dynamics. 
 
-## 3. Training phase: train a neural synthesizer
+## 3. Training phase: train a neural synthesizer (how)
 
 The original [Google Colab notebook](https://colab.research.google.com/github/magenta/ddsp/blob/main/ddsp/colab/demos/Train_VST.ipynb) for training the neural synthesizer, as provided by Google researchers, is now __non-functional__. This incompatibility issue arises because the source code has not been updated to align with the latest versions of the TensorFlow environment and the Python language.
 
@@ -73,7 +73,7 @@ To use your model, you should unzip the folder and place the entire contents in 
 
 <img src="images/NewModel01.png" width="400" height="500">
 
-## 4. Inference phase: morph a range of input sounds into various instrumental outputs
+## 4. Inference phase: morph a range of input sounds into various instrumental outputs (how)
 
 There are multiple use cases for the trained model.
 
