@@ -2,6 +2,8 @@
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
 ## 1. Project context
+This project explores another important technology to ensure musical machines’ participation won’t affect the authenticity and artistic integrity of emotional expression in performances. 
+
 After [detecting emotions](https://github.com/JeffreyLuo333/MusicEmotionDetection), machine synthesizers should respond with __`emotional nuances`__ rather than merely __`replaying standard tracks`__, a common __`limitation of traditional synthesizers`__. The foundation for such a capability lies in a synthesizer's ability to capture and reproduce the subtleties and nuances of real instrumental sounds. Learning from a diverse set of performance data that includes these nuances, __`neural synthesizers`__ can potentially capture and retain the subtle nuances of pitch and dynamics in sound generation. Furthermore, there are more potential benefits:
 - __Adaptability__: Neural networks can be trained to adapt to different styles and dynamics of playing, potentially offering more __`personalized musical expression`__ based on the training data.
 - __Interactivity__: These synthesizers can be designed to respond to various inputs in real-time, allowing for interactive performances that can __`mimic the responsiveness`__ of a human musician.
