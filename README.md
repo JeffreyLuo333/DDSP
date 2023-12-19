@@ -1,6 +1,8 @@
 # Differentiable Digital Signal Processing (DDSP)-VST
 <img src="images/DDSP-VST.jpg" width="750" height="250"> 
 
+Links to all my other __`music technology projects`__ (electronic instruments, AI-powered music signal processing software etc.) are at [http://jeffreyluo.com/#mt](http://jeffreyluo.com/#mt).
+
 ## 1. Project context
 This project explores another important technology to ensure musical machines’ participation won’t affect the authenticity and artistic integrity of emotional expression in performances. 
 
