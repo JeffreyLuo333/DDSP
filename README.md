@@ -167,3 +167,5 @@ DDSP and NSynth are both research projects developed by Google that leverage dee
 While NSynth focuses on sound interpolation and the generation of novel timbres, DDSP emphasizes realistic and expressive sound generation, integrating deep learning with traditional DSP techniques.
 
 Even though NSynth and DDSP are distinct projects with different focuses and approaches, they are both part of the broader landscape of neural audio synthesis, contributing to the development of innovative tools for sound generation and manipulation using deep learning.
+
+Have fun! Links to all my other __`music technology projects`__ (electronic instruments, AI-powered music signal processing software etc.) are at [http://jeffreyluo.com/#mt](http://jeffreyluo.com/#mt).
